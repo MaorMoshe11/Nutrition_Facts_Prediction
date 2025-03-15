@@ -43,11 +43,12 @@ We explore several models to improve on the original approach:
   Uses EfficientNet-B3 to detect and one-hot encode ingredients. This output is fused with features extracted by ResNet18 to predict caloric content.
 
 - **Image-Text Fusion (Pipeline Model):**  
-  A four-stage process:
-  1. **Image:** Feature extraction via ResNet18.
-  2. **Ingredient List:** Conversion to indices, embedding, and averaging.
-  3. **Fusion:** Concatenation of image and text features.
-  4. **Regression:** Caloric prediction using a small multilayer perceptron (MLP).
+  A two-stage process:
+  1. **Image:** Feature extraction via ResNet18 into **Ingredient List:** .
+  2. **Fusion:** Concatenation of image and text features and **Regression:** Caloric prediction using a new nueral network.
+
+  ![image](https://github.com/user-attachments/assets/b079f778-e44a-49e6-b970-9472887bd317)
+
 
 ---
 
