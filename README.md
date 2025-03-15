@@ -19,7 +19,7 @@ Accurately estimating the nutritional content of meals is integral to maintainin
 
 ## Data
 
-The dataset is derived from the Nutrition5k collection and consists of RGB images (256×256 pixels). Originally containing 5,000 examples, our cleaning process revealed several unusable images and an intentionally hidden test set. Consequently, the final dataset comprises 2,600 training examples and 200 test examples, including information on meal caloric values, ingredients, and other pertinent details. The dishes vary widely in calorie count and ingredient complexity, reflecting real-world conditions but also presenting challenges such as occluded ingredients and diverse portion sizes.
+The dataset is derived from the Nutrition5k collection and consists of RGB images (256×256 pixels). Originally containing 5,000 examples, our cleaning process revealed several unusable images and an intentionally hidden test set. Consequently, the final dataset comprises 2,600 training examples and 200 test examples, including information on meal caloric values, ingredients, and other pertinent details. The dishes vary widely in calorie count and ingredient complexity, reflecting real-world conditions but also presenting challenges such as occluded ingredients and diverse portion sizes. **Note:** The RGB images used in this study can be found in my drive.
 
 ---
 
@@ -81,5 +81,4 @@ This study explores the prediction of caloric values from RGB images using deep 
 ## Reference
 
 Thames, Q., Karpur, A., Norris, W., Weyand, T., Xia, F., Sim, J., & Panait, L. (2021). [Nutrition5k: Towards Automatic Nutritional Understanding of Generic Food](https://arxiv.org/pdf/2103.03375).
-
 
